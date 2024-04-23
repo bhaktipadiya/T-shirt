@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <title>page-5</title>
+</head>
+<div class="div">
+    <div class="div-2">
+      <div class="column">
+        <div class="div-3">
+          <div class="div-4">Knitted t-shirts</div>
+          <div class="div-5">Colour-Gray,Black,White</div>
+          <div class="div-6">size-XS to M</div>
+          <div class="div-7">Starting only at -/1999</div>
+        </div>
+      </div>
+      <div class="column-2">
+        <img src="kentted t shart.png"
+          class="img"
+        />
+      </div>
+    </div>
+  </div>
+  <style>
+    .div {
+      max-width: 825px;
+    }
+    .div-2 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 59%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .div-3 {
+      display: flex;
+      flex-direction: column;
+      font-size: 32px;
+      color: #000;
+      font-weight: 700;
+      padding: 0 20px;
+    }
+    @media (max-width: 991px) {
+      .div-3 {
+        margin-top: 40px;
+      }
+    }
+    .div-4 {
+      font: italic 40px Inter, sans-serif;
+    }
+    .div-5 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+      line-height: 156%;
+      margin-top: 62px;
+    }
+    @media (max-width: 991px) {
+      .div-5 {
+        margin-top: 40px;
+      }
+    }
+    .div-6 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+      line-height: 156%;
+      align-self: center;
+      margin-top: 41px;
+    }
+    @media (max-width: 991px) {
+      .div-6 {
+        margin-top: 40px;
+      }
+    }
+    .div-7 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+      line-height: 156%;
+      margin-top: 48px;
+    }
+    @media (max-width: 991px) {
+      .div-7 {
+        margin: 40px 7px 0;
+      }
+    }
+    .column-2 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 41%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-2 {
+        width: 100%;
+      }
+    }
+    .img {
+      aspect-ratio: 0.75;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+      margin-top: 25px;
+      flex-grow: 1;
+    }
+    @media (max-width: 991px) {
+      .img {
+        margin-top: 40px;
+      }
+    }
+  </style>
+  </head>
+</html>

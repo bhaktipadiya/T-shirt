@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+    <title>page-2</title>
+</head>
+<div class="div">
+    <div class="div-2">
+      <div class="column">
+        <div class="div-3">
+          <div class="div-4">Crew neck with full sleeve</div>
+          <div class="div-5">
+            <div class="div-6">Size-XS & S</div>
+            <div class="div-7">Colour-Pink,Red & Black</div>
+            <div class="div-8">Price:-/350</div>
+          </div>
+        </div>
+      </div>
+      <div class="column-2">
+        <div class="div-9">
+          <img src="page 2.png"
+            class="img"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .div {
+      max-width: 960px;
+    }
+    .div-2 {
+      gap: 20px;
+      display: flex;
+    }
+    @media (max-width: 991px) {
+      .div-2 {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0px;
+      }
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 66%;
+      margin-left: 0px;
+    }
+    @media (max-width: 991px) {
+      .column {
+        width: 100%;
+      }
+    }
+    .div-3 {
+      display: flex;
+      flex-direction: column;
+      color: #000;
+      font-weight: 700;
+      padding: 0 20px;
+    }
+    @media (max-width: 991px) {
+      .div-3 {
+        max-width: 100%;
+        margin-top: 34px;
+      }
+    }
+    .div-4 {
+      font: italic 48px/104% Inter, sans-serif;
+    }
+    @media (max-width: 991px) {
+      .div-4 {
+        max-width: 100%;
+        font-size: 40px;
+      }
+    }
+    .div-5 {
+      display: flex;
+      margin-top: 73px;
+      flex-direction: column;
+      align-items: start;
+      font-size: 36px;
+      line-height: 139%;
+      padding: 0 80px 0 18px;
+    }
+    @media (max-width: 991px) {
+      .div-5 {
+        max-width: 100%;
+        padding-right: 20px;
+        margin-top: 40px;
+      }
+    }
+    .div-6 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+    }
+    @media (max-width: 991px) {
+      .div-6 {
+        max-width: 100%;
+      }
+    }
+    .div-7 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+      align-self: center;
+      margin-top: 67px;
+    }
+    @media (max-width: 991px) {
+      .div-7 {
+        max-width: 100%;
+        margin-top: 40px;
+      }
+    }
+    .div-8 {
+      font-family: Inter, sans-serif;
+      font-style: italic;
+      margin: 73px 0 0 73px;
+    }
+    @media (max-width: 991px) {
+      .div-8 {
+        margin: 40px 0 0 10px;
+      }
+    }
+    .column-2 {
+      display: flex;
+      flex-direction: column;
+      line-height: normal;
+      width: 34%;
+      margin-left: 20px;
+    }
+    @media (max-width: 991px) {
+      .column-2 {
+        width: 100%;
+      }
+    }
+    .div-9 {
+      background-color: #6870b4;
+      display: flex;
+      margin-top: 35px;
+      flex-grow: 1;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      padding: 9px 28px;
+    }
+    @media (max-width: 991px) {
+      .div-9 {
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+    }
+    .img {
+      aspect-ratio: 0.55;
+      object-fit: auto;
+      object-position: center;
+      width: 100%;
+    }
+  </style>
+  </head>
+</html>
